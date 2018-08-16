@@ -1,0 +1,11 @@
+* html #main {
+	height: 100%;
+}
+*html #container{
+ width:expression(
+ (document.documentElement.clientWidth || document.body.clientWidth)<1000? '1000px':
+ (document.documentElement.clientWidth || document.body.clientWidth)>1200? '1200px':'auto');	
+}
+* html #content{
+	width: 100%;
+}

@@ -1,0 +1,669 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+audio, canvas, video {
+	display: inline-block;
+*display: inline;
+*zoom: 1;
+}
+audio:not([controls]) {
+	display: none;
+}
+[hidden] {
+display: none;
+}
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-size: 1.125em;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----end reset-----*/
+html, body {
+	height: 100%;
+}
+html {
+	color: #fff;
+}
+/*-------------------*/
+@font-face {
+	font-family: "PFCentroSlabProRegular";
+	src: url("font/PFCentroSlabProRegular.eot");
+	src: url("font/PFCentroSlabProRegular.eot?#iefix")format("embedded-opentype"),  url("font/PFCentroSlabProRegular.woff") format("woff"),  url("font/PFCentroSlabProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PFCentroSlabProBold"; */
+@font-face {
+	font-family: "PFCentroSlabProBold";
+	src: url("font/PFCentroSlabProBold.eot");
+	src: url("font/PFCentroSlabProBold.eot?#iefix")format("embedded-opentype"),  url("font/PFCentroSlabProBold.woff") format("woff"),  url("font/PFCentroSlabProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PFCentroSlabProLigh"; */
+@font-face {
+	font-family: "PFCentroSlabProLight";
+	src: url("font/PFCentroSlabProLight.eot");
+	src: url("font/PFCentroSlabProLight.eot?#iefix")format("embedded-opentype"),  url("font/PFCentroSlabProLight.woff") format("woff"),  url("font/PFCentroSlabProLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PFCentroSlabProMedium"; */
+@font-face {
+	font-family: "PFCentroSlabProMedium";
+	src: url("font/PFCentroSlabProMedium.eot");
+	src: url("font/PFCentroSlabProMedium.eot?#iefix")format("embedded-opentype"),  url("font/PFCentroSlabProMedium.woff") format("woff"),  url("font/PFCentroSlabProMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PFCentroSlabProMediumItalic"; */
+@font-face {
+	font-family: "PFCentroSlabProMediumItalic";
+	src: url("font/PFCentroSlabProMediumItalic.eot");
+	src: url("font/PFCentroSlabProMediumItalic.eot?#iefix")format("embedded-opentype"),  url("font/PFCentroSlabProMediumItalic.woff") format("woff"),  url("font/PFCentroSlabProMediumItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PFCentroSlabProBoldItalic"; */
+@font-face {
+	font-family: "PFCentroSlabProBoldItalic";
+	src: url("font/PFCentroSlabProBoldItalic.eot");
+	src: url("font/PFCentroSlabProBoldItalic.eot?#iefix")format("embedded-opentype"),  url("font/PFCentroSlabProBoldItalic.woff") format("woff"),  url("font/PFCentroSlabProBoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'pf_centro_sans_problack';
+	src: url('font/PF Centro Sans Pro Black.eot');
+	src: url('font/PF Centro Sans Pro Black.eot?#iefix') format('embedded-opentype'),  url('font/PF Centro Sans Pro Black.woff2') format('woff2'),  url('font/PF Centro Sans Pro Black.woff') format('woff'),  url('font/PF Centro Sans Pro Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+p {
+	line-height: 25px;
+	margin-bottom: 10px;
+	color: #fff2ea;
+}
+h2 {
+	font-family: "PFCentroSlabProBold";
+	font-size: 2.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.085em;
+	margin-bottom: 20px;
+	position: relative;
+}
+h3 {
+	font-family: "PFCentroSlabProBold";
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	font-size: 1.16em;
+	margin-bottom: 12px;
+	padding-left: 3px;
+}
+body {
+	background-image: url(../images/main-bg.png);
+	font-family: "PFCentroSlabProRegular";
+}
+header {
+	height: 880px;
+	background-color: #000;
+	margin-bottom: -800px;
+	color: #ddcfc6;
+	background-image: url(../images/bg-ts.png);
+}
+#container {
+	max-width: 1000px;
+	margin: 0 auto -150px;
+	min-height: 100%;
+}
+#content {
+	max-width: 1000px;
+	margin: 39px auto 60px;
+	background-color: #4d494a;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#crosspiece {
+	overflow: hidden;
+	padding: 800px 0 150px;
+	max-width: 1000px;
+}
+footer {
+	height: 150px;
+}
+/*---------------------*/
+.wrap {
+	overflow: hidden;
+	max-width: 970px;
+	margin: auto;
+}
+.litres {
+	background-repeat: no-repeat;
+	background-image: url(../images/litres.png);
+	background-size: cover;
+	width: 55px;
+	height: 13px;
+	display: inline-block;
+}
+/*HEADER*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .litres {
+ background-image: url(../images/litres@2x.png);
+}
+}
+.soc {
+	display: inline-block;
+	float: right;
+	text-align: center;
+}
+.soc li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.soc li a {
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	background-repeat: no-repeat;
+	background-image: url(../images/soc-ico.png);
+	background-size: cover;
+	outline: none;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .soc li a {
+ background-image: url(../images/soc-ico@2x.png);
+}
+}
+.soc li:last-child a {
+	background-position: -35px top;
+}
+.header-top {
+	padding-top: 13px;
+	height: 36px;
+}
+.header-middle, .header-bottom {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-middle {
+	height: 364px;
+	background-image: url(../images/top-bg.jpg);
+	padding-top: 37px;
+}
+.header-bottom {
+	height: 321px;
+	background-image: url(../images/middle-bg@2x.jpg);
+	padding-top: 60px;
+}
+.header-middle figure, .header-middle article, .aftor figure, .aftor article {
+	display: inline-block;
+	float: left;
+}
+.header-middle figure {
+	width: 30%;
+}
+.header-middle article {
+	width: 70%;
+}
+.header-middle article>div {
+	padding-top: 15px;
+	padding-left: 4%;
+	position: relative;
+}
+p.title {
+	font-family: "PFCentroSlabProRegular" !important;
+	font-size: 33px;
+	text-transform: uppercase;
+}
+.book {
+	margin-left: 28px;
+	width: 253px;
+	height: 325px;
+	background-repeat: no-repeat;
+	background-image: url(../images/book.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .book {
+ background-image: url(../images/book@2x.png);
+}
+}
+.vk, .load {
+	background-repeat: no-repeat;
+	display: inline-block;
+	outline: none;
+}
+.vk {
+	background-image: url(../images/vk.png);
+	width: 202px;
+	height: 74px;
+	background-size: cover;
+	position: relative;
+	top: -10px;
+	left: -12px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .vk {
+ background-image: url(../images/vk@2x.png);
+}
+}
+.slick-slide img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+.slick-slide p {
+	position: absolute;
+	z-index: 5;
+}
+.description {
+	font-family: "PFCentroSlabProBold";
+	bottom: 12px;
+	text-align: right;
+	left: 0;
+	right: 0;
+	text-transform: uppercase;
+	padding-right: 38px;
+}
+.capter {
+	font-family: "PFCentroSlabProMediumItalic";
+	padding-left: 40px;
+	top: 10px;
+}
+.capter span {
+	font-family: "PFCentroSlabProBold";
+	font-size: 50px;
+	position: relative;
+	top: 13px;
+}
+.slick-prev, .slick-next {
+	background-color: transparent;
+	border: none;
+	text-indent: -9999px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-image: url(../images/arrou-r.png);
+	background-size: cover;
+	display: inline-block;
+	width: 15px;
+	height: 39px;
+	z-index: 10;
+	top: 15px;
+	outline: none;
+	cursor: pointer;
+}
+.slick-prev {
+	right: 30px;
+}
+.slick-next {
+	left: 14px;
+	background-image: url(../images/arrou.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .slick-prev {
+ background-image: url(../images/arrou-r@2x.png);
+}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .slick-next {
+ background-image: url(../images/arrou@2x.png);
+}
+}
+img.w800, img.w400 {
+	display: none;
+}
+ul#header_nav {
+	overflow: hidden;
+	text-align: center;
+	line-height: 53px;
+}
+ul#header_nav>li {
+	display: inline-block;
+	margin: 0 29px;
+	position: relative;
+}
+ul#header_nav>li>a {
+	font-family: "PFCentroSlabProBold";
+	color: #ddcfc6;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+ul#header_nav>li:nth-child(2):after, ul#header_nav>li:nth-child(2):before {
+	content: '|';
+	position: absolute;
+	color: #fff;
+	top: 0;
+}
+ul#header_nav>li:nth-child(2):after {
+	right: -33px;
+}
+ul#header_nav>li:nth-child(2):before {
+	left: -30px;
+}
+.timer-wrapp {
+	margin-top: 22px;
+	margin-bottom: 45px;
+	position: relative;
+}
+.timer-wrapp span {
+	font-family: "PFCentroSlabProLight";
+	color: #ddcfc6;
+	position: absolute;
+	text-transform: uppercase;
+	bottom: -30px;
+}
+.timer-wrapp:after {
+	content: '';
+	position: absolute;
+	width: 231px;
+	height: 95px;
+	background-repeat: no-repeat;
+	background-image: url(../images/timer.png);
+	top: -20px;
+	left: 0px;
+}
+.d {
+	left: 27px;
+}
+.h {
+	left: 125px;
+}
+.m {
+	left: 230px;
+}
+.header-middle p {
+	font-family: "PFCentroSlabProLight";
+}
+#cnt_1, #cnt_4 {
+	margin-right: 10px;
+}
+#cnt_9, #cnt_10 {
+	display: none;
+}
+/*END HEADER*/
+/*MAIN*/
+#content section {
+	background-repeat: no-repeat;
+	background-image: url(../images/scill.png);
+	background-position: center bottom;
+	padding-bottom: 55px;
+	overflow: hidden;
+}
+#content section:last-child {
+	background-image: none;
+}
+.last-books {
+	padding-left: 15px;
+	overflow: hidden;
+	margin-bottom: 15px !important;
+	padding-bottom: 70px !important;
+	padding-top: 40px;
+}
+.last-books h2 {
+	padding-left: 6px;
+	letter-spacing: 0.11em;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.last-books article {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 10px;
+	;
+}
+.last-books article div {
+	float: left;
+	display: inline-block;
+	padding-top: 5px;
+	width: 83%;
+}
+.last-books article div p {
+	font-family: "PFCentroSlabProLight";
+	font-size: 0.88em;
+	color: #FFF2EA;
+}
+.last-books article img {
+	float: left;
+	margin-right: 4.5%;
+}
+h3 a {
+	font-family: "PFCentroSlabProRegular";
+	float: right;
+	color: #fff;
+	text-decoration: none;
+	text-transform: none;
+	margin-right: 50px;
+	font-size: 0.8em;
+	letter-spacing: 0.01em;
+}
+h2>a {
+	font-family: "PFCentroSlabProRegular";
+	color: #fff2ea;
+	text-decoration: none;
+	font-size: .4em;
+	float: right;
+	text-transform: none;
+	letter-spacing: 0.09em;
+	position: relative;
+	top: 22px;
+	margin-right: 5px;
+}
+.ml {
+	padding-left: 20px;
+	padding-right: 29px;
+}
+.aftor {
+	padding-bottom: 15px !important;
+}
+.aftor figure {
+	width: 26%;
+}
+.aftor article {
+	width: 74%;
+	padding-top: 20px;
+}
+.aftor article p {
+	margin-bottom: 20px;
+}
+.load {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url(../images/load.png);
+	background-size: cover;
+	width: 202px;
+	height: 74px;
+	top: -16px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .load {
+ background-image: url(../images/load@2x.png);
+}
+}
+/*END MAIN*/
+/*FOOTER*/
+footer {
+	background-repeat: no-repeat;
+	background-image: url(../images/footer-bg.jpg);
+	background-position: center bottom;
+	background-size: cover;
+}
+.footer-top {
+	height: 100px;
+}
+.footer-top img {
+	width: 100%;
+	height: 100%;
+}
+.copiright {
+	font-family: "PFCentroSlabProLight";
+	text-align: center;
+	color: #817A76;
+	font-size: 0.84em;
+	margin-top: 11px;
+}
+/*READER*/
+#reader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: 1000;
+	display: none;
+}
+.reader-content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url(../images/top-bg.jpg);
+}
+.reader-content.is_mobil {
+	position: relative !important;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	background-image: url(../images/top-bg800px.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.reader-content.is_mobil .text-wrap {
+	overflow: visible;
+}
+.reader-content.is_mobil nav {
+	display: none;
+}
+.reader-content.is_mobil .inner-wrapp section {
+	padding-left: 0;
+}
+.reader-content.is_mobil #visible {
+	padding: 0 20px;
+}
+.slider_reader {
+	display: none;
+}
+.reader-content.is_mobil .slider_reader {
+	display: block;
+}
+.reader-content.is_mobil .text-wrap figure {
+	display: none;
+}
+.slider_reader.slick-slider {
+	width: 100%;
+	height: 640px;
+}
+.slider_reader.slick-slider .slick-slide {
+	height: 640px !important;
+}
+.slider_reader.slick-slider .slick-slide img {
+	display: block !important;
+}
+.reader-content.is_mobil .inner-wrapp {
+	float: none;
+}
+.close {
+	position: absolute;
+	display: inline-block;
+	width: 35px;
+	height: 34px;
+	background-repeat: no-repeat;
+	background-image: url(../images/close.png);
+	background-size: cover;
+	z-index: 100;
+	right: 22px;
+	top: 22px;
+	cursor: pointer;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .close {
+ background-image: url(../images/close@2x.png);
+}
+}
+.reader-content.is_mobil .close {
+	right: 40px;
+	top: 33px;
+}
+.pleer {
+	width: 100%;
+	height: 74px;
+	margin-bottom: 15px;
+}
+.pleer * {
+	width: 100%;
+}
+.reader-content nav {
+	display: inline-block;
+	float: left;
+	padding-top: 15px;
+	margin-left: 15px;
+}
+.inner-wrapp {
+	float: right;
+}
+.nav-wrapp {
+	width: 216px;
+	outline: none;
+	overflow: auto;
+}
+.text-wrap {
+	outline: none;
+	overflow: auto;
+}
+.text-wrap figure {
+	position: relative;
+	height: 22em;
+}
+.text-wrap figure p {
+	position: absolute;
+}
+.text-wrap img {
+	width: 100%;
+	height: 100%;
+}
+.nav-wrapp ul li {
+	position: relative;
+	margin-bottom: 10px;
+}
+.nav-wrapp ul li p {
+	font-family: "PFCentroSlabProBold";
+	position: absolute;
+	z-index: 10;
+	top: 10px;
+	left: 10px;
+	font-size: 1.85em;
+}
+.inner-wrapp>section {
+	padding-left: 30px;
+}
+.hide {
+	display: none;
+}

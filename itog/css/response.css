@@ -1,0 +1,358 @@
+@media (max-width: 800px) {
+header {
+	height: 1893px;
+}
+.slick-slider {
+	width: 85%;
+	margin: auto;
+}
+.header-top .wrap {
+	width: 90%;
+}
+.header-top p {
+	font-size: 1em !important;
+}
+.header-middle figure, .header-middle article, .aftor figure, .aftor article {
+	display: block;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.reader-content.is_mobil .close {
+	right: 60px;
+}
+.header-middle article>div {
+	padding: 30px 4% 0;
+}
+#container {
+	margin: 0 auto -160px;
+}
+#crosspiece {
+	padding: 800px 0 160px;
+}
+ul#header_nav {
+	line-height: 75px;
+}
+.header-middle {
+	height: 1160px;
+	background-image: url(../images/top-bg800px.jpg);
+}
+.header-middle p {
+	font-size: 1.16em;
+	line-height: 38px;
+}
+.timer-wrapp {
+	width: 320px;
+	margin: 22px auto 58px;
+}
+.book {
+	margin: auto;
+	width: 406px;
+	height: 525px;
+	background-repeat: no-repeat;
+	background-image: url(../images/book480.jpg);
+	background-size: cover;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .book {
+ background-image: url(../images/book480@2x.jpg);
+}
+}
+.vk {
+	background-image: url(../images/vk800.png);
+	width: 317px;
+	height: 130px;
+	margin-left: 35px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .vk {
+ background-image: url(../images/vk800@2x.jpg);
+}
+}
+p.title {
+	font-size: 1.5em;
+	letter-spacing: 0.04em;
+	margin-top: -8px;
+}
+.slick-slide {
+	width: 465px;
+	height: 391px !important;
+}
+.slick-slider img {
+	display: none;
+}
+.slick-slider img.w800 {
+	display: block;
+}
+.description {
+	padding-right: 220px;
+	font-size: 27px;
+	bottom: 9px;
+}
+.slider_reader.slick-slider .description {
+	padding-right: 220px;
+}
+.capter span {
+	font-size: 75px;
+	top: 20px;
+}
+.capter {
+	font-size: 25px;
+	top: 13px;
+	left: 20px;
+}
+.slick-prev, .slick-next {
+	width: 20px;
+	height: 50px;
+	top: 25px;
+}
+.header-bottom {
+	padding-top: 90px;
+}
+#content {
+	margin: 72px 5% 60px;
+	padding: 38px 10px 0;
+}
+#content section:first-child, #content section:last-child {
+	text-align: center;
+}
+#content section {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+p {
+	line-height: 37px;
+	font-size: 1.15em;
+	margin-bottom: 15px;
+}
+h2 {
+	text-align: center;
+	overflow: hidden;
+}
+h3 a {
+	margin-right: 0;
+	margin-top: 4px;
+}
+h2>a {
+	float: none;
+	display: block;
+}
+.line>span {
+	border-bottom: 1px solid #DBD0CA;
+}
+.line {
+	margin-bottom: 40px;
+}
+.last-books h2 {
+	width: 400px;
+	margin: 0 auto 18px;
+	padding-left: 0;
+}
+.load {
+	display: block;
+	margin: 15px auto 0;
+}
+.last-books article {
+	float: none;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.last-books article:last-child {
+	margin-bottom: -20px;
+}
+.last-books article div p {
+	font-size: 1em;
+	line-height: 25px;
+}
+#content section:last-child {
+	padding-top: 20px;
+}
+.aftor article {
+	margin-top: -5px;
+}
+footer {
+	height: 160px;
+}
+.footer-top img {
+	display: none;
+}
+.footer-top img.w800 {
+	display: block;
+}
+.copiright {
+	margin-bottom: 0;
+}
+}
+@media (max-width: 640px) {
+ul#header_nav li:nth-child(2), ul#header_nav li:nth-child(3) {
+	display: none;
+}
+ul#header_nav li:nth-child(1) {
+	position: relative;
+}
+ul#header_nav li:nth-child(1):after {
+	content: '';
+	position: absolute;
+	width: 26px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../images/trengle640.png);
+	top: 28px;
+	right: -35px;
+}
+ @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ ul#header_nav li:nth-child(1):after {
+ background-image: url(../images/trengle640800@2x.png);
+}
+}
+.last-books h2 {
+	width: 100%;
+}
+.description {
+	padding-right: 110px;
+}
+.vk {
+	margin-left: 35px;
+}
+ul#header_nav>li>a {
+	font-size: 1.18em;
+}
+.book {
+	margin: auto;
+	width: 406px;
+	height: 525px;
+	background-repeat: no-repeat;
+	background-image: url(../images/book480.jpg);
+	background-size: cover;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .book {
+ background-image: url(../images/book480@2x.jpg);
+}
+}
+.inner-wrapp section {
+	padding-left: 0;
+}
+.text-wrap p {
+	margin: 0 2%;
+}
+}
+@media (min-width: 481px) and (max-width: 800px) {
+.slider_reader.slick-slider .description {
+	padding-right: 100px;
+}
+.header-bottom {
+	height: 483px;
+}
+.slick-slider img.w800 {
+	display: block;
+}
+}
+@media (max-width: 480px) {
+header {
+	height: 1925px;
+}
+.footer-top img.w800 {
+	display: none;
+}
+.footer-top img.w400 {
+	display: block;
+}
+.header-bottom {
+	height: 483px;
+}
+.reader-content.is_mobil .close {
+	right: 40px;
+}
+.header-top {
+	height: 55px;
+	padding-top: 20px;
+}
+.header-middle {
+	padding-top: 45px;
+}
+.slick-slider img.w800 {
+	display: block;
+}
+.footer-top {
+}
+.copiright {
+	margin: 11px 15px 0;
+	line-height: 20px;
+}
+.description {
+	padding-right: 30px;
+}
+.book {
+	margin: auto;
+	width: 356px;
+	height: 475px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+ .book {
+ background-image: url(../images/book480@2x.jpg);
+}
+}
+.title {
+	line-height: 32px;
+}
+.last-books article div {
+	float: none;
+	display: block;
+	margin-left: 18%;
+}
+.last-books h2 {
+	font-size: 2em;
+}
+.header-top .wrap .litres {
+	width: 85px;
+	height: 20px;
+}
+.soc li a {
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/soc-ico@2x.png);
+}
+.soc li:last-child a {
+	background-position: -50px top;
+}
+.slick-prev {
+	right: 10px;
+}
+.text-wrap figure {
+	height: 18em;
+}
+.slider_reader.slick-slider {
+	height: 400px !important;
+}
+.slider_reader.slick-slider .slick-slide {
+	height: 400px !important;
+}
+.slider_reader.slick-slider .description {
+	padding-right: 70px;
+}
+}
+@media (max-width: 360px) {
+.header-top .wrap .litres {
+	width: 55px;
+	height: 13px;
+}
+.line {
+	line-height: 28px;
+}
+.header-middle {
+	height: 1260px;
+}
+.vk {
+	margin-left: 8px;
+}
+header {
+	height: 2035px;
+}
+.slider_reader.slick-slider {
+	height: 300px !important;
+}
+.slider_reader.slick-slider .slick-slide {
+	height: 300px !important;
+}
+}
